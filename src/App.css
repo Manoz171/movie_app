@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Movie Page */
+.movie-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+/* Search Section Styling */
+.search-section {
+    background-color: #ffffff; /* Background color for the search section */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the section */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 20px; /* Space below the search section */
+    text-align: center; /* Center text inside the section */
+}
+
+/* Input Styling */
+input[type="text"] {
+    width: 20%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 4px; /* Rounded corners */
+    margin-top: 10px; /* Margin above the input */
+}
+
+/* Card Error Styling */
+.card-error {
+    color: red; /* Error message color */
+    margin-top: 10px; /* Margin above the error message */
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Info */
+.card-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-info h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Image Styles */
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* Ensures image covers the space properly */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Loading and Error Messages */
+.movie-page div {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Style for the movie-section */
+.movie-section {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Padding around the section */
+    background-color: #f4f4f4; /* Optional background color */
+}
+
+/* Style for the movie-card */
+.movie-card {
+    background-color: white; /* White background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Ensure the image and content stay within the card */
+    max-width: 400px; /* Max width for the card */
+    text-align: center; /* Center text inside the card */
+    padding: 20px; /* Padding inside the card */
+}
+
+/* Style for the figure */
+figure {
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for image */
+.movie-card img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Style for card content */
+.card-content {
+    
+    margin-top: 15px; /* Space above the content */
+}
+
+/* Title styling */
+.title {
+    font-size: 1.5rem; /* Font size for title */
+    font-weight: bold; /* Bold title */
+    margin: 10px 0; /* Margin above and below title */
+}
+
+/* Text styling */
+.card-text {
+    font-size: 1rem; /* Font size for text */
+    color: #777; /* Gray color for text */
+    margin: 5px 0; /* Margin above and below text */
+}
+
+/* Button styling */
+.nav-button {
+    display: inline-block; /* Make it inline-block for padding */
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-top: 15px; /* Space above the button */
+}
+
+/* Button hover effect */
+.nav-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
